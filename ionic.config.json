@@ -1,0 +1,8 @@
+{
+  "name": "ouChationic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "ac2a47fe"
+}
