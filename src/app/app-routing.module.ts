@@ -13,11 +13,15 @@ const routes: Routes = [
   {
     path: 'tab1',
     loadChildren: () => import('./tab1/tab1.module').then( m => m.Tab1PageModule)
+  },  {
+    path: 'profil',
+    loadChildren: () => import('./profil/profil.module').then( m => m.ProfilPageModule)
   },
-  {
-    path: 'tab1',
-    redirectTo:'tab1',
-    pathMatch: 'full'}
+
+  // {
+  //   path: 'tab1',
+  //   redirectTo:'tab1',
+  //   pathMatch: 'full'}
 ];
 @NgModule({
   imports: [
