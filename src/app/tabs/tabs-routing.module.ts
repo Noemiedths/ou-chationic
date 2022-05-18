@@ -28,6 +28,10 @@ const routes: Routes = [
         loadChildren: () => import('../profil/profil.module').then(m => m.ProfilPageModule)
       },
       {
+        path: 'creer-perdu',
+        loadChildren: () => import('../creer-perdu/creer-perdu.module').then(m => m.CreerPerduPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab2',
         pathMatch: 'full'

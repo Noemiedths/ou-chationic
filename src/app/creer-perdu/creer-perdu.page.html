@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>lost</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+      <ion-list-header>
+        <ion-label>
+          Multiple Selection
+        </ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Animal</ion-label>
+        <ion-select multiple="true" cancelText="Annuler" okText="Valider">
+          <ion-select-option value="chien">Chien</ion-select-option>
+          <ion-select-option value="chat">Chat</ion-select-option>
+          <ion-select-option value="lapin">Lapin</ion-select-option>
+          <ion-select-option value="fouine">Fouine</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Race</ion-label>
+        <ion-select multiple="true" cancelText="Annuler" okText="Valider">
+          <ion-select-option value="berger-australien">Berger Australien</ion-select-option>
+          <ion-select-option value="cocker">Cocker</ion-select-option>
+          <ion-select-option value="berger-allemand">Berger Allemand</ion-select-option>
+          <ion-select-option value="golden-retriever">Fouine</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-item>
+        <ion-label>Couleur</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label>Puces</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Email :</ion-label>
+      <ion-input placeholder="Adresse Email" type="email"></ion-input>
+    </ion-item>
+</ion-content>
